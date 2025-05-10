@@ -1,0 +1,31 @@
+# RAG-Assistant Technical Specifications
+
+## System Requirements
+
+- Python 3.8 or higher
+- 8GB RAM minimum (16GB recommended)
+- 2GB free disk space
+- Internet connection for LLM API access
+
+## Core Components
+
+### Document Processor
+- Handles document ingestion and chunking
+- Supports TXT, MD, and PDF formats
+- Optimal chunk size: 512 tokens with 128 token overlap
+
+### Vector Store
+- Uses FAISS for efficient similarity search
+- Dimensions: 1536 (OpenAI ada-002 embeddings)
+- Top-k retrieval with MMR reranking
+
+### Agent System
+- Tool routing based on query classification
+- Available tools: Calculator, Dictionary, RAG pipeline
+- Custom tool integration available in Premium plans
+
+## Performance Metrics
+
+- Average query response time: <2 seconds
+- Retrieval precision: 85% (based on benchmark tests)
+- Agent routing accuracy: 92%

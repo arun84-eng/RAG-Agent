@@ -1,0 +1,51 @@
+# RAG-Assistant User Manual
+
+## Getting Started
+
+### Document Upload
+1. Navigate to the Document Management section
+2. Click "Upload your own documents"
+3. Select one or more files to upload
+4. Wait for processing to complete
+
+### Using Sample Documents
+If you want to test the system without uploading your own documents:
+1. Check the "Use sample documents" option
+2. Click "Initialize System"
+
+## Asking Questions
+
+Enter your question in the text input field and press Enter. The system will:
+1. Analyze your query
+2. Route it to the appropriate tool or retrieval system
+3. Generate and display the answer
+
+### Query Types
+
+#### Document Questions
+Ask anything about the content in your documents:
+- "What are the key features of the product?"
+- "How do I upload documents?"
+
+#### Calculations
+Use the calculator by including the keyword "calculate":
+- "Calculate the square root of 144"
+- "Calculate 25% of 80"
+
+#### Definitions
+Get definitions by using the keyword "define":
+- "Define machine learning"
+- "Define vector database"
+
+## Troubleshooting
+
+### System Not Responding
+If the system appears frozen, try:
+1. Refreshing the page
+2. Reinitializing the system
+
+### Incorrect Answers
+If answers seem incorrect:
+1. Check if your documents contain the relevant information
+2. Try rephrasing your question
+3. Ensure the system was properly initialized

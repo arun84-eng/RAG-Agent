@@ -1,0 +1,25 @@
+# Company FAQ
+
+## General Questions
+
+### What is RAG-Powered Assistant?
+RAG-Powered Assistant is a cutting-edge AI system that combines retrieval-augmented generation with a multi-agent approach to provide accurate answers based on your documents.
+
+### How does the system work?
+Our system uses a two-step process: first, it retrieves relevant information from your documents, then it generates natural language answers using an advanced language model. The system can also route specialized queries to dedicated tools.
+
+## Technical Support
+
+### What file formats are supported?
+Currently, we support TXT, MD, and PDF file formats for document ingestion.
+
+### How secure is my data?
+Your data is processed locally and is not stored on external servers. The vector embeddings are kept in memory for the duration of your session only.
+
+## Pricing and Plans
+
+### Is there a free tier?
+Yes, the basic version is available for free with limited document processing. Premium plans start at $19.99/month.
+
+### What are the limits of document processing?
+The free tier allows processing up to 5 documents with a maximum of 50 pages each. Premium plans remove these restrictions.
